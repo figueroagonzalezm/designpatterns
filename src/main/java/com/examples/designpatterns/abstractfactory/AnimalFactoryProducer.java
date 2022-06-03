@@ -22,7 +22,7 @@ public class AnimalFactoryProducer {
             case PET:
                 return this.petFactory;
             default:
-                throw new InvalidParameterException("Invalid AnimalGroup: "+ group);
+                throw new InvalidParameterException("Invalid AnimalGroup: " + group);
         }
     }
 }

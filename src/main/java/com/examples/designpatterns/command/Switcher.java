@@ -8,7 +8,7 @@ public class Switcher {
 
     private List<Command> commands;
 
-    public Switcher(){
+    public Switcher() {
         commands = new ArrayList<>();
     }
 
